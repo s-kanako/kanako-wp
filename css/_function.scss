@@ -1,0 +1,16 @@
+$main-blue: #054577;
+$line-color: #00A4DC;
+$base: #333333;
+$back-strong: #DDDDDD;
+$back-right: #f7f7f7;
+$point-color: #EE852E;
+
+@mixin shadow {
+    box-shadow: 10px 5px 3px $back-strong;
+}
+@mixin center {
+    position: relative;
+    top: 50%;
+    left: 30%;
+
+}
